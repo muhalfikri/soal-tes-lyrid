@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1654374213;_ci_previous_url|s:31:"http://localhost:8081/akun_bank";id|s:1:"1";hash_user|s:16:"yJ6sg5SiPo0V2B7Z";email|s:19:"superadmin@demo.com";nama_lengkap|s:11:"Super Admin";no_telp|s:12:"083872806501";foto|s:24:"assets/files/default.png";id_group|s:1:"1";logged_in|b:1;sweetalert|s:152:"Swal.fire({
+                title : "Berhasil!",
+                text : "Akun Bank telah ditambahkan.",
+                icon : "success"
+            });";__ci_vars|a:1:{s:10:"sweetalert";s:3:"old";}

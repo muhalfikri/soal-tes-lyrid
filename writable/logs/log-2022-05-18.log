@@ -1,0 +1,103 @@
+ERROR - 2022-05-18 10:18:24 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:18:42 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:19:23 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:19:35 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:21:55 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:22:43 --> Error connecting to the database: Connection refused
+ERROR - 2022-05-18 10:22:56 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+ERROR - 2022-05-18 10:23:36 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:24:30 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:24:46 --> Error connecting to the database: Connection refused
+ERROR - 2022-05-18 10:31:19 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+ERROR - 2022-05-18 10:33:23 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+ERROR - 2022-05-18 10:33:39 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:34:08 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:36:24 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:38:30 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:38:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-05-18 10:38:56 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Dat...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(149): db_connect(NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Config/Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Config/Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#14 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+ERROR - 2022-05-18 10:46:38 --> Error connecting to the database: No such file or directory
+ERROR - 2022-05-18 10:46:56 --> Error connecting to the database: Connection refused
+ERROR - 2022-05-18 10:47:13 --> Error connecting to the database: Connection refused
+ERROR - 2022-05-18 10:52:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	`date_created` TIMESTAMP NOT NULL DEFAULT '...' at line 3
+ERROR - 2022-05-18 10:53:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	`date_created` TIMESTAMP NOT NULL DEFAULT '...' at line 3
+ERROR - 2022-05-18 10:55:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	`date_created` TIMESTAMP NOT NULL DEFAULT '...' at line 3
+ERROR - 2022-05-18 10:57:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	created_at timestamp default current_timest...' at line 3
+ERROR - 2022-05-18 10:58:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	created_at datetime default current_timesta...' at line 3
+ERROR - 2022-05-18 10:59:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	created_at datetime default current_timesta...' at line 3
+ERROR - 2022-05-18 11:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMEST...' at line 3
+ERROR - 2022-05-18 11:03:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMEST...' at line 3
+ERROR - 2022-05-18 11:03:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	`created_at` TIMESTAMP DEFAULT CURRENT_TIME...' at line 3
+ERROR - 2022-05-18 11:04:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	CONSTRAINT `pk_tb_group` PRIMARY KEY(`id`)
+...' at line 3
+ERROR - 2022-05-18 11:04:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL,
+	CONSTRAINT `pk_tb_group` PRIMARY KEY(`id`)
+...' at line 3
+ERROR - 2022-05-18 11:05:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL DEFAULT 0,
+	CONSTRAINT `pk_tb_group` PRIMARY ...' at line 3
+ERROR - 2022-05-18 11:07:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL DEFAULT 0,
+	created_at TIMESTAMP DEFAULT CURR...' at line 3
+ERROR - 2022-05-18 11:07:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`trash` INT NOT NULL DEFAULT 0,
+	created_at TIMESTAMP DEFAULT CURR...' at line 3
+ERROR - 2022-05-18 11:10:31 --> Invalid default value for 'created_at'
+ERROR - 2022-05-18 11:11:16 --> Invalid default value for 'created_at'
+CRITICAL - 2022-05-18 21:31:03 --> Call to undefined function Modules\Student\Controllers\rand_string()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-05-18 21:53:22 --> preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): A...', '/Applications/X...', 384, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Router/Router.php(384): preg_match('#^Modules\\Stude...', '/', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Router/Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}

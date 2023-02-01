@@ -1,0 +1,23 @@
+CRITICAL - 2022-06-03 23:48:32 --> Undefined variable: title
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Student/Views/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 8, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-06-03 23:52:30 --> Call to undefined method CodeIgniter\Session\Session::userData()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Dashboa...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Dashboard/Controllers/DashboardController.php(17): view('Modules\\Dashboa...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Dashboard\Controllers\DashboardController->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\DashboardController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}

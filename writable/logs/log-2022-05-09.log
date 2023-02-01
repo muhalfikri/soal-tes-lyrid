@@ -1,0 +1,50 @@
+CRITICAL - 2022-05-09 23:56:46 --> Invalid file: Modules\Student\View\index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Student...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-05-09 23:56:51 --> Invalid file: Modules\Student\View\index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Student...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-05-09 23:57:22 --> Invalid file: Modules\Student\View\index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Student...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-05-09 23:57:24 --> Invalid file: Modules\Student\View\index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Student...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-05-09 23:57:44 --> Invalid file: Modules\Student\View\index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Student...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Modules\\Student...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/Modules/Student/Controllers/StudentController.php(17): view('Modules\\Student...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Student\Controllers\StudentController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\StudentController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/TUTORIAL/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}

@@ -1,0 +1,14 @@
+ERROR - 2022-05-21 05:12:30 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-05-21 05:12:30 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(75): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->logout()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}

@@ -1,0 +1,345 @@
+ERROR - 2022-06-05 00:57:19 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-06-05 00:57:19 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Masters/Controllers/CustomerController.php(29): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Masters\Controllers\CustomerController->save()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Masters\Controllers\CustomerController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+ERROR - 2022-06-05 00:57:38 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-06-05 00:57:38 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(76): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->logout()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-06-05 02:51:27 --> Undefined index: results
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/public_helper.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 104, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Masters/Controllers/CustomerController.php(113): get_subdistrict('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Masters\Controllers\CustomerController->get_subdistrict()
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Masters\Controllers\CustomerController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 02:51:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exception
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-05 03:36:07 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 03:37:28 --> print_r() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', '/Applications/X...', 17, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(17): print_r()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 04:03:24 --> Call to undefined function Modules\Auth\Controllers\auth()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:04:32 --> Call to undefined function Modules\Auth\Controllers\auth()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:05:13 --> Class 'App\Library\Auth' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Modules\Auth\Controllers\AuthController->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:05:37 --> Undefined variable: auth
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/X...', 20, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-06-05 04:05:59 --> Call to undefined method App\Libraries\Auth::cek()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:08:30 --> Class 'Modules\Auth\Controllers\Auth' not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(809): Modules\Auth\Controllers\AuthController->__construct()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+ERROR - 2022-06-05 04:33:56 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-06-05 04:33:56 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(88): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->logout()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-06-05 04:49:07 --> Call to undefined method App\Libraries\Auth::cek_logi()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:49:28 --> Call to undefined method CodeIgniter\Session\Session::key()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(22): App\Libraries\Auth->cek_login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+ERROR - 2022-06-05 04:49:56 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-06-05 04:49:56 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(84): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->logout()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+ERROR - 2022-06-05 04:50:55 --> Column 'hash_user' cannot be null
+CRITICAL - 2022-06-05 04:50:55 --> Column 'hash_user' cannot be null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Auth/Controllers/AuthController.php(84): insert('tb_log', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Auth\Controllers\AuthController->logout()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Auth\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-06-05 04:51:22 --> admin-auth filter must have a matching alias defined.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('admin-auth')
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('admin-auth', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 04:51:45 --> Call to a member function isLoggedIn() on null
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:10:41 --> userAuth filter must have a matching alias defined.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('userAuth')
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/login')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:12:02 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:12:24 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:12:40 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:13:10 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:13:56 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:14:59 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:17:02 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('assets/node_mod...', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:17:03 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('assets/node_mod...', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:17:10 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:17:13 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('assets/node_mod...', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:17:13 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('assets/node_mod...', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:17:25 --> Call to undefined function App\Filters\sweetalert()
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\UsersAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-05 05:29:21 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:29:34 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 05:30:20 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login_proc...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-06-05 14:45:26 --> The action you requested is not allowed.
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('supplier/get_ci...', 'before')
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+ERROR - 2022-06-05 15:27:07 --> Unknown column 'no_telepon' in 'field list'
+CRITICAL - 2022-06-05 15:27:07 --> Unknown column 'no_telepon' in 'field list'
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tb_cust...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_cust...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_cust...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_cust...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(54): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Masters/Controllers/CustomerController.php(49): update('tb_customer', Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Masters\Controllers\CustomerController->update()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Masters\Controllers\CustomerController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}
+ERROR - 2022-06-05 15:28:55 --> Unknown column 'no_telepon' in 'field list'
+CRITICAL - 2022-06-05 15:28:55 --> Unknown column 'no_telepon' in 'field list'
+#0 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `tb_cust...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_cust...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_cust...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_cust...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/app/Helpers/crud_helper.php(54): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/Modules/Masters/Controllers/CustomerController.php(49): update('tb_customer', Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Modules\Masters\Controllers\CustomerController->update()
+#7 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Masters\Controllers\CustomerController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/gudang-alfikri/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#11 {main}

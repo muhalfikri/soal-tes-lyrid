@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 72175be (update push first)
@@ -168,3 +169,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 >>>>>>> 72175be (update push first)
 =======
 >>>>>>> f2ffad587fae21901c4824de04e93294e420cf07
+=======
+# soal-tes-lyrid
+Source Code Hasil Tes Codeigniter 4 
+>>>>>>> 3c234be589f6c73d716b83618ff06fe97956c9dd

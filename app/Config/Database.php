@@ -32,7 +32,7 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost:8080',
+        'hostname' => '127.0.0.1',
         'username' => 'root',
         'password' => '',
         'database' => 'dev_sys_pegawai',
